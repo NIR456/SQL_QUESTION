@@ -10,5 +10,5 @@
       
   - **4. Schema Name:** You'll need to choose a unique name for the schema. The name should follow SQL Server naming conventions and avoid reserved keywords.
 
-  - **5. Schema Objects:** Once the schema is created, you can populate it with various schema objects, such as tables, views, stored procedures, functions, and triggers. These objects will be associated with the schema and can be accessed using their qualified names (schema_name.object_name).
+  - **5. Schema Objects:** Once the schema is created, we can populate it with various schema objects, such as tables, views, stored procedures, functions, and triggers. These objects will be associated with the schema and can be accessed using their qualified names (schema_name.object_name).
        
