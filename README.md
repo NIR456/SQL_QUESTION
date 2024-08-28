@@ -15,21 +15,21 @@
  
 - Triggers are automatically executed in response to specific events like insertions, updates, or deletions on a table or view.
 
- ### Types of Triggers
+ #### Types of Triggers
 
 - **BEFORE Trigger**: Executes before an insert, update, or delete operation is performed. This allows you to modify the data or prevent the operation from happening.
 - **AFTER Trigger**: Executes after an insert, update, or delete operation has been performed. It’s often used for logging or other actions that need to occur after the operation is completed.
 - **INSTEAD OF Trigger**: Executes in place of the usual operation (insert, update, or delete). This type of trigger can replace the standard operation with a different one.
 
-### Usage Scenarios
+#### Usage Scenarios
 
 - **Data Validation**: Ensure data meets certain criteria before being inserted or updated.
 - **Audit Logging**: Automatically record changes to data for auditing purposes.
 - **Maintaining Derived Data**: Update related tables or columns automatically when data changes.
 
-### Example of Creating Triggers
+#### Example of Creating Triggers
 
-#### BEFORE INSERT Trigger
+##### BEFORE INSERT Trigger
 
 Suppose you have a table `Employees` and you want to ensure that no employee's salary can be below a certain threshold before inserting a new record.
 
