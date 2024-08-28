@@ -15,7 +15,7 @@
  
 - Triggers are automatically executed in response to specific events like insertions, updates, or deletions on a table or view.
 
- #### Types of Triggers
+ #### Types of Triggers:-
 
 - **BEFORE Trigger**: Executes before an insert, update, or delete operation is performed. This allows you to modify the data or prevent the operation from happening.
 - **AFTER Trigger**: Executes after an insert, update, or delete operation has been performed. It’s often used for logging or other actions that need to occur after the operation is completed.
