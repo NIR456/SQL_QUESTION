@@ -43,4 +43,6 @@ BEGIN
   END IF;
 END;
 ```
+## Parameter sniffing
+ - **Parameter sniffing** is a performance optimization technique in SQL Server where the query optimizer uses the values of parameters passed in the first execution of a query to create an execution plan. This plan is then reused for subsequent executions, assuming the parameters will have similar values.
        
